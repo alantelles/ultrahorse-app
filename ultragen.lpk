@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="UltraGen"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)/"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Version Major="1"/>
+    <Files Count="35">
+      <Item1>
+        <Filename Value="astclass.pas"/>
+        <UnitName Value="ASTClass"/>
+      </Item1>
+      <Item2>
+        <Filename Value="lexerclass.pas"/>
+        <UnitName Value="LexerClass"/>
+      </Item2>
+      <Item3>
+        <Filename Value="tokenclass.pas"/>
+        <UnitName Value="TokenClass"/>
+      </Item3>
+      <Item4>
+        <Filename Value="tokens.pas"/>
+        <UnitName Value="Tokens"/>
+      </Item4>
+      <Item5>
+        <Filename Value="binopclass.pas"/>
+        <UnitName Value="BinOpClass"/>
+      </Item5>
+      <Item6>
+        <Filename Value="numclass.pas"/>
+        <UnitName Value="NumClass"/>
+      </Item6>
+      <Item7>
+        <Filename Value="impparserclass.pas"/>
+        <UnitName Value="ImpParserClass"/>
+      </Item7>
+      <Item8>
+        <Filename Value="unaryopclass.pas"/>
+        <UnitName Value="UnaryOpClass"/>
+      </Item8>
+      <Item9>
+        <Filename Value="binlogicopclass.pas"/>
+        <UnitName Value="BinLogicOpClass"/>
+      </Item9>
+      <Item10>
+        <Filename Value="unarylogicopclass.pas"/>
+        <UnitName Value="UnaryLogicOpClass"/>
+      </Item10>
+      <Item11>
+        <Filename Value="loggingclass.pas"/>
+        <UnitName Value="LoggingClass"/>
+      </Item11>
+      <Item12>
+        <Filename Value="symbolsclass.pas"/>
+        <UnitName Value="SymbolsClass"/>
+      </Item12>
+      <Item13>
+        <Filename Value="symboltableclass.pas"/>
+        <UnitName Value="SymbolTableClass"/>
+      </Item13>
+      <Item14>
+        <Filename Value="interpreterclass.pas"/>
+        <UnitName Value="InterpreterClass"/>
+      </Item14>
+      <Item15>
+        <Filename Value="exceptionsclasses.pas"/>
+        <UnitName Value="ExceptionsClasses"/>
+      </Item15>
+      <Item16>
+        <Filename Value="instanceofclass.pas"/>
+        <UnitName Value="InstanceOfClass"/>
+      </Item16>
+      <Item17>
+        <Filename Value="stackclass.pas"/>
+        <UnitName Value="StackClass"/>
+      </Item17>
+      <Item18>
+        <Filename Value="arclass.pas"/>
+        <UnitName Value="ARClass"/>
+      </Item18>
+      <Item19>
+        <Filename Value="corefunctionsclass.pas"/>
+        <UnitName Value="CoreFunctionsClass"/>
+      </Item19>
+      <Item20>
+        <Filename Value="coreutils.pas"/>
+        <UnitName Value="CoreUtils"/>
+      </Item20>
+      <Item21>
+        <Filename Value="flowcontrolastclass.pas"/>
+        <UnitName Value="FlowControlASTClass"/>
+      </Item21>
+      <Item22>
+        <Filename Value="stringinstanceclass.pas"/>
+        <UnitName Value="StringInstanceClass"/>
+      </Item22>
+      <Item23>
+        <Filename Value="listinstanceclass.pas"/>
+        <UnitName Value="ListInstanceClass"/>
+      </Item23>
+      <Item24>
+        <Filename Value="bytestreamclass.pas"/>
+        <UnitName Value="ByteStreamClass"/>
+      </Item24>
+      <Item25>
+        <Filename Value="ultrageninterfaceclass.pas"/>
+        <UnitName Value="UltragenInterfaceClass"/>
+      </Item25>
+      <Item26>
+        <Filename Value="httpclientinstanceclass.pas"/>
+        <UnitName Value="HttpClientInstanceClass"/>
+      </Item26>
+      <Item27>
+        <Filename Value="jsontools.pas"/>
+        <UnitName Value="JsonTools"/>
+      </Item27>
+      <Item28>
+        <Filename Value="typeloaderclass.pas"/>
+        <UnitName Value="TypeLoaderClass"/>
+      </Item28>
+      <Item29>
+        <Filename Value="responsehandlerclass.pas"/>
+        <UnitName Value="ResponseHandlerClass"/>
+      </Item29>
+      <Item30>
+        <Filename Value="datetimeinstanceclass.pas"/>
+        <UnitName Value="DateTimeInstanceClass"/>
+      </Item30>
+      <Item31>
+        <Filename Value="brookserverclass.pas"/>
+        <UnitName Value="BrookServerClass"/>
+      </Item31>
+      <Item32>
+        <Filename Value="ultrawebhandlersclass.pas"/>
+        <UnitName Value="UltraWebHandlersClass"/>
+      </Item32>
+      <Item33>
+        <Filename Value="serverclass.pas"/>
+        <UnitName Value="ServerClass"/>
+      </Item33>
+      <Item34>
+        <Filename Value="dbinstanceclass.pas"/>
+        <UnitName Value="DBInstanceClass"/>
+      </Item34>
+      <Item35>
+        <Filename Value="regexinstanceclass.pas"/>
+        <UnitName Value="RegexInstanceClass"/>
+      </Item35>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="BrookTardigrade"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir);/home/alantelles/develop/lazarus/ultragen/src"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
