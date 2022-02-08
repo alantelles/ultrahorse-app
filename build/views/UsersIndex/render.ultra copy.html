@@ -1,0 +1,22 @@
+@function render() : UsersIndex self
+<div class="table">
+    <table>
+        <thead>
+            <th>UUID</th>
+            <th>Full name</th>
+            <th>Email</th>
+        </thead>
+        <tbody>
+@       for($horseData, user)
+            <tr>
+                <td>
+                    <a href="/users/{{ user[:login][:uuid] }}">{{ user[:login][:uuid] }}</a>
+                </td>
+                <td>{{ user[:name][:first] }} {{ user[:name][:last] }}</td>
+                <td>{{ user[:email] }}</td>
+            </tr>
+@       end
+        </tbody>
+    </table>
+</div>
+@end

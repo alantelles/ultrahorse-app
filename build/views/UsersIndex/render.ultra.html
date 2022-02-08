@@ -1,0 +1,17 @@
+@include 'layouts/UserProfile'
+@function render() : UsersIndex self
+<div class="table">
+    <table>
+        <thead>
+            <th>UUID</th>
+            <th>Full name</th>
+            <th>Email</th>
+        </thead>
+        <tbody>
+@       for($horseData, user)
+            {{ UserProfile.renderStatic(user) }}
+@       end
+        </tbody>
+    </table>
+</div>
+@end

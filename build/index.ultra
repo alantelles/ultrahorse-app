@@ -1,0 +1,13 @@
+include 'views/BaseLayout'
+
+component = $fromHorse[:component]
+
+# include 'views/HomeIndex'
+ComponentToRender = include 'views/' + component
+
+# content = new HomeIndex()
+content = new ComponentToRender()
+
+baseLayout = new BaseLayout(content)
+
+live baseLayout.render()

@@ -1,0 +1,5 @@
+class HomeIndex
+
+function render() : HomeIndex self
+    live "Este é o super app UltraHorse"
+end

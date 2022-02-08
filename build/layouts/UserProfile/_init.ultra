@@ -1,0 +1,3 @@
+class UserProfile
+
+include 'layouts/UserProfile/renderStatic.ultra.html'

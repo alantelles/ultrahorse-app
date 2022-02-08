@@ -1,0 +1,5 @@
+include 'layouts/UserProfile'
+
+class UsersShow
+
+include 'views/UsersShow/render.ultra.html'

@@ -1,0 +1,3 @@
+class UsersIndex
+
+include 'views/UsersIndex/render.ultra.html'

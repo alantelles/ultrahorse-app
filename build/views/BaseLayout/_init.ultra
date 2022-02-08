@@ -1,0 +1,6 @@
+class BaseLayout
+
+function init(content) : BaseLayout self
+end
+
+include 'views/BaseLayout/render.ultra.html'
